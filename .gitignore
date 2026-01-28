@@ -1,0 +1,54 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Gradle files
+.gradle/
+build/
+
+# Kotlin/Java compiled files
+*.class
+*.bundle
+*.jar
+
+# Android Studio / IntelliJ files
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.navigation/
+
+# Local configuration (สำคัญมาก: ห้ามเอาขึ้นเพราะแต่ละเครื่อง SDK อยู่ที่ต่างกัน)
+local.properties
+
+# Secrets and Signing (สำคัญมาก: ห้ามเอาไฟล์กุญแจขึ้น GitHub เด็ดขาด!)
+*.jks
+*.keystore
+*.p12
+*.google_play_keys
+google-services.json
+
+# Built artifacts (APK/AAB)
+*.apk
+*.aab
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Captures and logs
+captures/
+log/
